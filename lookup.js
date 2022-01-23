@@ -75,7 +75,7 @@ const main = async () => {
               let nation = country.getName(geoinfo.country)
               let out = ''
               if(city === region){
-                out = `${city}/${country}`
+                out = `${city}/${nation}`
               }else{
                 out = `${city}/${region}/${nation}`
               }
